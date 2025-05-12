@@ -19,3 +19,4 @@ server.listen(3000, () => {
 
 // npm install -g nodemon -- for auto restart
 // nodemon routes.js -- to run the server with nodemon
+// or node --watch routes.js -- to run the server with auto restart (works in node 18+)
