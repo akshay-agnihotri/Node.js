@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLink - URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Quick<span>Link</span></div>
+            <div class="tagline">Shorten URLs. Share easily. Track clicks.</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <main class="main-content">
+            <h2>Shorten Your URL</h2>
+            
+            <form class="url-form">
+                <div class="input-group">
+                    <label for="long-url">Enter a long URL to make it shorter</label>
+                    <input type="url" id="long-url" placeholder="https://example.com/your-very-long-url-goes-here" required>
+                </div>
+                
+                <button type="submit">Shorten URL</button>
+            </form>
+            
+            <div class="results">
+                <h3>Your Shortened URLs</h3>
+                
+                <!-- Sample result items -->
+                <div class="result-card">
+                    <div>
+                        <div class="shortened-url">quicklink.io/a7b3c9</div>
+                        <div class="original-url">https://www.example.com/very-long-article-about-something-interesting</div>
+                    </div>
+                    <button class="copy-btn">Copy</button>
+                </div>
+                
+                <div class="result-card">
+                    <div>
+                        <div class="shortened-url">quicklink.io/x9y2z1</div>
+                        <div class="original-url">https://another-example.com/products/category/item?id=12345&ref=homepage</div>
+                    </div>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">1.2M+</div>
+                    <div class="stat-label">Links shortened</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500K+</div>
+                    <div class="stat-label">Monthly clicks</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Happy users</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 QuickLink URL Shortener. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
