@@ -1,0 +1,14 @@
+[
+  {
+    "username": "akshay_agni_96",
+    "email": "akshay@gmail.com",
+    "password": "Akshay@1234",
+    "confirm_password": "Akshay@1234"
+  },
+  {
+    "username": "shivam tripathi",
+    "email": "shivam@gmail.com",
+    "password": "Shivam@1234",
+    "confirm_password": "Shivam@1234"
+  }
+]
